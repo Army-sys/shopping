@@ -1,0 +1,48 @@
+/* 字体 */
+.ft22{font-size: 22px;}
+.ft12{font-size: 12px;}
+.ft14{font-size: 14px;}
+.ft18{font-size: 18px;}
+
+
+/* 字体颜色 */
+.cr{color: #E43130;}
+.cb{color: #000000;}
+.c8{color: #32D18C;}
+.ccc{color: #ccc;}
+/* 字体加粗 */
+.fw{font-weight: bold;}
+
+/* 外边距 */
+.m5{margin-top: 5px;}
+.m20{margin-left: 20px;}
+
+/* 缩进 */
+.td{text-indent: 2px;}
+
+/* 边框 */
+.bd1{border: 1px solid #ccc;}
+.footer{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background: #FFFFFF;
+    justify-content:space-between;
+    padding: 0 30px;
+    box-sizing: border-box;
+ }
+ .footer a {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     line-height: 25px;
+     text-align: center;
+     color: #8B8B8B; 
+     
+ }
+ .footer a.active{
+     color:#E43130 !important;
+ }
+ .active{
+     color: #E43130;
+ }

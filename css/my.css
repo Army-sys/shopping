@@ -1,0 +1,74 @@
+html,body{
+    height: 100%;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* 登录 */
+main{
+   
+    flex: 1;
+    overflow-y: scroll;
+    background: #F6F6F6;
+    
+}
+main .sign img{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+main .sign{
+    width: 100%;
+   display: flex;
+   justify-content:flex-start;
+   align-items: center;
+    background: #FFFFFF;
+    padding-top: 20px;
+
+}
+main .sign div:last-child{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* 货物 */
+main .goods{
+    background: #fff;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+main .goods ul{
+  display: flex;
+  justify-content: space-around;
+
+}
+main .goods ul li a{
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+}
+main .goods ul li a span:first-child{
+    font-size: 46px;
+    color: #000000;
+}
+/* 服务 */
+main .service{
+    background: #fff;
+    margin-top: 10px;
+    padding: 30px 20px;
+}
+main .service li{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 1px solid #f7f7f7;
+    line-height: 16vw;
+    padding-left: 10px;
+
+}

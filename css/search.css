@@ -1,0 +1,86 @@
+html,body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+  }
+  /* 头部 */
+  header{
+    display: flex;
+    border:1px solid #f7f7f7;
+    height: 42px;
+    align-items: center;
+    background-color: #fff;
+  }
+  header span{
+    margin:0px 10px;
+  }
+  header div{
+    position: relative;
+    flex: 1;
+    padding-right:20px ;
+  }
+  header div input{
+    border:1px solid #f7f7f7;
+    background-color: #f7f7f7;
+    outline: none;
+    width: 100%;
+    text-indent: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+  header div span{
+    position: absolute;
+    color:#ccc;
+    top:7px;
+    left:2px;
+  }
+  header button{
+    border:none;
+    background-color: #E43130;
+    color: #fff;
+    font-size: 12px;
+    width: 40px;
+    outline: none;
+    line-height: 27px;
+    margin-right: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  .history{
+    background-color: #fff;
+  }
+  .recent-search{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 60px;
+    align-items: center;
+  }
+  .recent-search i{
+    color: #B4B4B4;
+    font-size: 16px;
+  }
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .content li{
+    background-color: #F0F2F5;
+    color:#686868;
+    padding: 2px 12px;
+    margin-left: 10px;
+    line-height: 20px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    font-size: 12px;
+  } 

@@ -1,0 +1,120 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    
+    overflow: scroll;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 3px;
+    align-items: center;
+}
+
+header input {
+
+    margin-left: 5px;
+    border-radius: 20px;
+    border: none;
+    background: #F7F7F7;
+    text-indent: 40px;
+    line-height: 4vh;
+    width: 100%;
+}
+
+header div {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+header div>span {
+    position: absolute;
+    left: 25px;
+    top: 10px;
+}
+
+/* 热门推荐 */
+
+.recomm {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.recomm .releft {
+
+    background: #F8F8F8;
+    width: 85px;
+    overflow-y:scroll ;
+   
+   
+
+}
+.recomm .releft a{
+    font-size: 14px;
+}
+.recomm .releft li.active{
+    color:#E43130;
+    background-color: #fff;
+}
+.recomm .releft>li {
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+}
+
+
+/* 右边 */
+.recomm .reright {
+    flex: 1;
+    background: #fff;
+    padding: 0 10px;
+    overflow: scroll;
+
+}
+.recomm p{
+    color: #000;
+}
+
+.recomm .reright h3 {
+    height: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+   
+}
+
+.recomm .reright ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 25px;
+}
+
+.recomm .reright ul>li {
+    width: 33%;
+}
+
+.recomm .reright ul>li img {
+    width: 100%;
+}
+
+.recomm .reright .phone li {
+
+    text-align: center;
+    width: 30%;
+}
+.recomm .reright>li{
+    margin-top:20px ;
+}
